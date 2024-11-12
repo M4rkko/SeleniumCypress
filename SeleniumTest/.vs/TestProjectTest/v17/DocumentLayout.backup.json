@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|c:\\users\\markk\\desktop\\testprojecttest\\testprojecttest\\swaglabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|solutionrelative:testprojecttest\\swaglabs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|c:\\users\\markk\\desktop\\testprojecttest\\testprojecttest\\demoblaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|solutionrelative:testprojecttest\\demoblaze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|c:\\users\\markk\\desktop\\testprojecttest\\testprojecttest\\xkatki||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B91C94D-1CB9-4AE3-A0AA-91C50D09AFB0}|TestProjectTest\\TestProjectTest.csproj|solutionrelative:testprojecttest\\xkatki||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "xKatki",
+              "DocumentMoniker": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\xKatki",
+              "RelativeDocumentMoniker": "TestProjectTest\\xKatki",
+              "ToolTip": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\xKatki",
+              "RelativeToolTip": "TestProjectTest\\xKatki",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-12T15:36:34.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Demoblaze.cs",
+              "DocumentMoniker": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\Demoblaze.cs",
+              "RelativeDocumentMoniker": "TestProjectTest\\Demoblaze.cs",
+              "ToolTip": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\Demoblaze.cs",
+              "RelativeToolTip": "TestProjectTest\\Demoblaze.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:57:27.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SwagLabs.cs",
+              "DocumentMoniker": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\SwagLabs.cs",
+              "RelativeDocumentMoniker": "TestProjectTest\\SwagLabs.cs",
+              "ToolTip": "C:\\Users\\Markk\\Desktop\\TestProjectTest\\TestProjectTest\\SwagLabs.cs",
+              "RelativeToolTip": "TestProjectTest\\SwagLabs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:42:02.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

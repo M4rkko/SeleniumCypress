@@ -1,0 +1,71 @@
+using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Support.UI;
+using System;
+using System.ComponentModel;
+using System.Threading;
+
+
+namespace TestProjectTest
+{
+    public class Tests
+    {
+        private IWebDriver driver;
+        string Test_URL = "https://candymapper.com/";
+        private readonly Random _random = new();
+
+        [SetUp]
+        public void Setup()
+        {
+            driver = new EdgeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Navigate().GoToUrl(Test_URL);
+        }
+
+        [Test]
+        public void Test1()
+        {
+            // Popup close
+            IWebElement closeButton = driver.FindElement(By.Id("popup-widget62629-close-icon"));
+
+            // Click the close button
+            closeButton.Click();
+
+
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript("window.scrollBy(0,1000);");
+
+            // Cant interact with Slider
+            // "Inside a IFrame" ???
+
+            // Switch to the iframe using its ID
+            driver.SwitchTo().Frame("iframe-undefined1");
+
+            // Locate the element inside the iframe and click it
+            var element = driver.FindElement(By.Id("tCounty"));
+            element.Click();
+
+            // Switch back to the main content if needed
+            driver.SwitchTo().DefaultContent();
+
+            Thread.Sleep(3000);
+
+
+            Assert.Pass();
+        }
+
+        [TearDown] 
+        public void TearDown()
+        {
+            if (driver != null)
+            {
+                driver.Quit();
+                driver.Dispose();
+                
+            }
+        }
+
+    }
+}
